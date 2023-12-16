@@ -1,0 +1,56 @@
+.CatalogPokedex {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 2px solid #333;
+  margin: 0 0 50px 0; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.CatalogPokedex-title {
+  font-family: 'PokemonGBA';
+  text-align: center;
+  margin: 10px 0; 
+  color: #ff7f00;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 1.5em;
+}
+
+.search-container {
+  width: 100%; 
+  padding: 0 10px; 
+}
+
+.search-container input {
+  padding: 8px;
+  font-size: 1em; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.CatalogPokedex-Card {
+  width: 100%; 
+  padding: 0 10px;
+  box-sizing: border-box; 
+}
+
+@media (min-width: 768px) {
+  .CatalogPokedex-title {
+      font-size: 2em; 
+  }
+
+  .search-container input {
+      font-size: 1.2em; 
+      width: auto; 
+      max-width: 500px; 
+  }
+
+  .CatalogPokedex-Card {
+      justify-content: center; 
+  }
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'PokemonGBA';
+  src: url('./fonts/pokemon-classic.ttf') format('truetype'),}
+
+body {
+  margin: 0;
+  font-family: 'PokemonGBA', sans-serif; /* Use the font-family for the body */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(248, 121, 121);
+  color: #4d4d4d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
